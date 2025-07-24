@@ -1,36 +1,76 @@
 <!DOCTYPE html>
 <html>
     <head>
-       <title>მთავარი</title>
+    <title>მთავარი</title>
+    <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1.0, user-scalable=no">
+  <link href="assets/css/style.css" rel="stylesheet" type="text/css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
     </head>
  <body>
     <header>
-       <nav>
-          <ul>
+        <div class="header-container">
+         <div class="header-left-box">
+        <div class="logo-container">
+             <div class="logo-content">
+               <a href="https://tbcbank.ge/ka/tbc-education" target="_blank">
+                <img src="media/tbc-logo.png" class="logoimg" alt="tbc-logo">
+            </a>
+             </div><!---logo-content-->
+        </div><!--logo-container-->
+       <nav class="nav">
+          <ul class="ul">
              <li><a href="index.html">მთავარი</a></li>
              <li><a href="about.html">ჩვენს შესახებ</a></li>
-             <li><a href="services.html">სერვისები</a></li>
+             <li><a href="services.html" class="active-link">სერვისები</a></li>
              <li><a href="news.html">სიახლე</a></li>
              <li><a href="contact.html">კონტაქტი</a></li>
           </ul>
        </nav>
+       </div><!--header-left-box-->
+       
+         <div class="header-tel-container">
+            <div class="header-tel-content">
+                <a href="tel:551 11 22 33" class="tel-link"><i class="fa-solid fa-phone"> 551 11 22 33</i></a>
+            </div><!--header-tel-content-->
+         </div><!--header-tel-container-->
+       </div><!--header-container-->
     </header>
     <div class="body-container">
-        <div class="main-slider-sontainer">
-          <div class="main-slider-contanet">
-             <picture>
-                <img src="">
-             </picture>
-          </div><!--main-slider-contanet---->
-        </div><!--main-slider-sontainer-->
+        
         <div class="body-content">
-           
+           <h1>სიახლეები</h1>
         </div><!--body-content-->
      </div><!-----body-container-->
      <footer>
         <div class="footer-container">
              <div class="footer-content">
-              
+                <div class="footer-boxs-content">
+                   <div class="footer-logo">
+                    <a href="https://tbcbank.ge/ka/tbc-education" target="_blank">
+                        <img src="media/tbc-logo.png" class="logoimg" alt="tbc-logo">
+                    </a>
+                   </div><!--footer-logo-->
+
+                   <nav class="footer-nav">
+                    <ul class="footer-ul">
+                       <li><a href="index.html">მთავარი</a></li>
+                       <li><a href="about.html">ჩვენს შესახებ</a></li>
+                       <li><a href="services.html">სერვისები</a></li>
+                       <li><a href="news.html" class="active-link">სიახლე</a></li>
+                       <li><a href="contact.html">კონტაქტი</a></li>
+                    </ul>
+                 </nav>
+
+                 <div class="footer-tel-container">
+                    <div class="footer-tel-content">
+                        <a href="tel:551 11 22 33" class="tel-link"><i class="fa-solid fa-phone"> 551 11 22 33</i></a>
+                    </div><!--header-tel-content-->
+                 </div><!--header-tel-container-->
+
+                </div><!--footer-boxs-content-->
              </div><!----footer-content-->
         </div><!--footer-container-->
      </footer>
