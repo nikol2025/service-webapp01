@@ -53,6 +53,10 @@ text-decoration: none;
 color: #222222;
 font-family: 'bpgninomtavr';
 }
+ul.ul li a.active-link{
+color:#0576b9;
+font-weight: 600;
+}
 a.tel-link{
 display: block;
 text-decoration: none;
@@ -64,7 +68,7 @@ font-family: Arial, Helvetica, sans-serif;
 position: relative;
 width:1250px;
 min-height:100vh;
-margin:40px auto;
+margin:15px auto;
 }
 .main-slider-container{
 position:relative;
