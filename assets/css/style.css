@@ -1,4 +1,4 @@
-@font-face{font-family:'bpgninomtavr';src:url('/assets/css/bpg_nino_mtavruli_normal.ttf');}
+@font-face{font-family:'bpgninomtavr';src:url('assets/css/bpg_nino_mtavruli_normal.ttf');}
 *{
 margin:0;
 padding:0;
@@ -87,6 +87,9 @@ margin:40px 0 20px 0;
 position: relative;
 margin:10px 0 20px 0;
 }
+.service-boxs-header h3{
+font-family: 'bpgninomtavr';
+}
 .main-page-service-boxs{
 position: relative;
 display: flex;
@@ -122,12 +125,16 @@ height:269px;
 a.service-details-link{
 text-decoration: none;
 display: block;
+color:#222222;
 }
 .service-box-image{
 position: relative;
 width:100%;
 height: 100%;
 overflow: hidden;
+}
+.service-box-title h3{
+font-family: 'bpgninomtavr';
 }
 img.service-box-img{
 width: 100%;
@@ -205,6 +212,7 @@ ul.footer-ul li a{
 display: block;
 text-decoration: none;
 color: #222222;
+font-family: 'bpgninomtavr';
 }
 @media screen and (min-width:320px) and (max-width:768px){
 header {
