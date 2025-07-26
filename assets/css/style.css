@@ -233,6 +233,13 @@ border-radius: 5px;
 font-family: 'bpgninomtavr';
 color:#fff;
 }
+/*---Service- Lists---*/
+.service-list-boxs{
+display: flex;
+display: -webkit-flex;
+justify-content: space-between;
+margin: 20px 0 0 0;
+}
 /*----Service View----*/
 .service-view-container{
 position: relative;
@@ -390,7 +397,11 @@ width: 100%;
 height: 269px;
 margin: 30px 0 30px 0;
 }
-
+/*---Service- Lists---*/
+.service-list-boxs{
+flex-wrap: wrap;
+margin: 10px 0 20px 0;
+}
 .service-view-boxs{
 position: relative;
 margin: 20px 0 0 0;
