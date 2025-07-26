@@ -14,6 +14,9 @@ header{
 position: relative;
 width:1250px;
 margin: 0 auto;
+box-shadow: -4px 7px 3px 0px #efefef;
+-webkit-box-shadow: -4px 7px 3px 0px #efefef;
+padding: 0 10px 0 10px;
 }
 .header-container{
 display: flex;
@@ -205,6 +208,96 @@ border-radius: 6px;
 -webkit-border-radius:6px;
 object-fit: cover;
 }
+.page-routes{
+position: relative;
+display: flex;   
+}
+.page-routes a{
+text-decoration: none;
+}
+a.inactive-route-link{
+margin:0 10px 0 10px;
+color: #fff;
+background-color: #979fa4;
+padding: 5px;
+border-radius: 5px;
+-webkit-border-radius:5px;
+font-family: 'bpgninomtavr';
+}
+a.active-route-link{
+margin:0 10px 0 10px;
+background-color: #0576b9;
+padding: 5px;
+border-radius: 5px;
+-webkit-border-radius:5px;
+font-family: 'bpgninomtavr';
+color:#fff;
+}
+/*----Service View----*/
+.service-view-container{
+position: relative;
+width: 100%;
+height: auto;
+margin:20px 0 0 0;
+}
+.service-view-boxs{
+position: relative;
+margin: 20px 0 0 0;
+display: flex;
+display: -webkit-flex;
+justify-content: space-between;
+}
+.service-view-left-box{
+position: relative;
+width: 850px;
+height: auto;
+}
+.service-view-right-box{
+position: relative;
+width: 350px;
+height:auto;
+border-left: 1px solid #e4e7e9;
+padding: 20px;
+}
+.serice-name{
+border-bottom: 1px solid #e4e7e9; 
+padding-bottom: 20px;
+}
+.serice-name h3{
+font-size: 1.3rem;
+font-family: 'bpgninomtavr';
+}
+.service-price{
+margin-top: 20px;
+}
+.service-price p{
+font-size: 1.3rem;
+font-family: 'bpgninomtavr';
+font-weight: 600;
+}
+.service-contact{
+margin: 20px 0 0 0;
+}
+.service-contant-header{
+margin: 20px 0 20px 0;
+}
+.service-contant-header p{
+font-size: 1.3rem;
+font-family: 'bpgninomtavr';
+font-weight: 600;
+}
+.service-contact a{
+text-decoration: none;
+margin: 10px 0 0 0;
+background-color: #ee103a;
+color: #ffffff;
+font-size: 1.3rem;
+font-family: Arial, Helvetica, sans-serif;
+padding: 8px;
+border-radius:5px;
+-webkit-border-radius:5px;
+}
+/*---Footer---*/
 footer{
 position: relative;
 width:100%;
@@ -297,6 +390,27 @@ width: 100%;
 height: 269px;
 margin: 30px 0 30px 0;
 }
+
+.service-view-boxs{
+position: relative;
+margin: 20px 0 0 0;
+display: flex;
+display: -webkit-flex;
+flex-wrap: wrap;
+}
+.service-view-left-box{
+position: relative;
+width: 98%;
+height: auto;
+}
+.service-view-right-box{
+position: relative;
+width: 98%;
+height:auto;
+border-top: 1px solid #e4e7e9;
+padding: 20px;
+}
+
 .footer-content{
 position: relative;
 width:98%;
